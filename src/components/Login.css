@@ -1,0 +1,28 @@
+.login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background:#f8f8f8;
+    justify-content: center;
+}
+
+.login__container{
+    padding: 100px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow:0 4px 4px #333;
+}
+
+.login__img{
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+}
+
+.google__btn{
+    margin-top: 50px !important;
+    text-transform: inherit !important;
+    background: #0a8d48 !important;
+    color: white !important;
+}

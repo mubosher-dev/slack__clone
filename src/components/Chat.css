@@ -1,0 +1,39 @@
+.main__massage-container{
+    flex: 0.7;
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding-bottom: 150px;
+}
+
+.chat__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid lightgray; 
+}
+
+.main__massage-container::-webkit-scrollbar{
+    width: 0px!important;
+    display: none!important;
+}
+
+.chat__channelName{
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+}
+
+
+.chat__headerRight > p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+
+.chat__info{
+    margin: 0 5px;
+    font-size: 16px;
+}

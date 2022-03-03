@@ -1,0 +1,36 @@
+.sidebar__options {
+    display: flex   !important;
+    align-items: center;
+    font-size: 12px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+.big{
+    padding: 5px;
+    font-size: 14px;
+}
+
+.sidebar__options:hover{
+    background: #340e36;
+    opacity: .9;
+}
+
+.sidebarOption__icon{
+    font-size: 15px !important;
+    margin: 0 5px;
+}
+
+.sidebarOption__channelName{
+    display: flex;
+    align-items: center;
+    padding:5px 0;
+}
+
+.sidebarOptions__hashtag{
+    padding: 5px;
+}
+
+.sidebar__options > h3 {
+    font-weight: 500;
+}

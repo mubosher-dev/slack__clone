@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css2?family=Doppio+One&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s ease-in-out;
+  transition-property: opacity, background-color, color, transform, position;
+}
+
+html,body {
+  font-family: "Doppio One", sans-serif;
+  --slack-color: #3f0f40;
+   height: 100vh;
+   overflow: hidden;
+}
+
+.app__body{
+  display: flex;
+  position: relative;
+}
+
+.chat__scroll{
+  position: absolute;
+  width: 80%;
+  right: 0;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.chat__scroll::-webkit-scrollbar{
+  display: none;
+}
+
+.chats__overflow{
+  min-height: 100vh;
+  height: auto;
+}

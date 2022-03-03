@@ -1,0 +1,34 @@
+.chat__input{
+    border-radius: 20px;
+    position: relative;
+    padding: 10px;
+    background-color: #fff;
+}
+
+form {
+    position: sticky !important;
+    display: flex !important;
+    bottom: 30px;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+    border: 1px solid lightgray;
+}
+
+.chat__input > form > .chat__input-item{
+    width: 40%;
+    border-radius: 3px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 70%;
+}
+.file__icon{
+    font-size: 16px;
+    cursor: pointer;
+}
+.form__btn{
+    padding: 10px !important;
+}
+

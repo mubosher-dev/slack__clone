@@ -1,0 +1,57 @@
+.sidebar{
+    height: 100vh;
+    flex: 0.3;
+    color: white;
+    max-width: 260px;
+    background: var(--slack-color);
+    border-top: 1px solid #49274b;
+    overflow-y: scroll
+}
+
+.sidebar__scroll{
+    height:100%;
+}
+
+.sidebar__header{
+    display: flex;
+    border-bottom: 1px solid #49274b;
+    padding: 13px;
+}
+
+.sidebar__info{
+    flex: 1;
+}
+
+.sidebar__info > h2 {
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.sidebar__info > h3 {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.sidebar__change{
+    padding: 2px;
+    color: #49274b;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 999px;
+}
+
+.sidebar__dotted{
+    font-size: 14px;
+    margin-top: 1px;
+    margin-right: 2px;
+    color: green;
+}
+
+hr{
+    margin: 10px 0;
+    border:1px solid #49274b ;
+}
+
